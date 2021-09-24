@@ -1,0 +1,63 @@
+/* comments are Emmet abbreviation */
+body { 
+    background-color: #fff;/*bgc */
+    color: rgb(0, 27, 102);/*c */
+     font-family: Arial, Helvetica, sans-serif; /* ff */
+     
+}
+header {
+    background-color: #002171;/* bgc*/
+    color: #fff;/* c */
+    background-image: url(./images/sunset.jpg); /* bgi*/
+    background-repeat: no-repeat; /* bgr*/
+    background-position: right; /* bgp */
+    line-height: 400%; /* lh */
+    text-indent: 1em; /* ti */
+
+}
+nav {
+    display: inline-block; /*d */
+    font-weight: bold /* fw */
+
+    
+}
+nav a {
+    text-decoration: none; /* td */
+}
+h1 {
+    margin-bottom: 0; /* mb */
+    font-family: Georgia, 'Times New Roman'; /* ff */
+}
+h2 {
+    color: #1976d2;/* c */
+    font-family: Georgia, 'Times New Roman'; /* ff */
+}
+h3 {
+    color: #003; /* c #003 */
+    font-family: Georgia, 'Times New Roman'; /* ff */
+}
+dt {color:#002171/* c */
+
+
+}
+ul{
+    list-style-image: url(./images/marker.gif); /* lsi */
+}
+footer{
+    font-size: 75%;
+    font-style: italic; /* fs */
+    text-align: center; /* tac */
+    font-family: Georgia, 'Times New Roman';
+}
+.resort {
+    color:#1976d2;/* c */
+    font-weight: bold; /* fwb */
+
+}
+#contact {
+  background-color: aliceblue; /*bcg*/ 
+  font-size: 90%; /*fsz90%*/
+  
+  }
+
+  
