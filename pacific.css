@@ -13,16 +13,18 @@ header {
     background-position: right; /* bgp */
     line-height: 400%; /* lh */
     text-indent: 1em; /* ti */
-
+    margin-right: 0px;
+    
 }
 nav {
-    display: inline-block; /*d */
-    font-weight: bold /* fw */
-
-    
+    font-weight: bold; /* fw */
+    overflow: hidden;
+    background-color: lightblue;
+    margin: 0px;
 }
 nav a {
     text-decoration: none; /* td */
+
 }
 h1 {
     margin-bottom: 0; /* mb */
@@ -40,9 +42,25 @@ dt {color:#002171/* c */
 
 
 }
-ul{
+
+main ul {
     list-style-image: url(./images/marker.gif); /* lsi */
+   
+    
 }
+
+nav li {
+    list-style-type: none;
+    
+    float: left;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left:0px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+
+
 footer{
     font-size: 75%;
     font-style: italic; /* fs */
