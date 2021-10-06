@@ -13,12 +13,7 @@ body {
 #wrapper {
     background-color: #90c7e3; /* bgc#90c7e3 */ 
     background-image: linear-gradient(to bottom, #FFF, #90C7EC);
-    border: 1px solid #003; /* b1-solid-#003 */
-    box-shadow: 3px 3px 3px #333; /* bxsd */
-    margin: auto; /* m:a8* */
-    max-width: 2048px; /* maw2048 */
-    min-width: 960px; /* mw960 */ 
-    width: 80%; /* w80% */     
+  
 }
 header {
     background-color: #000032; /* bgc#000032 */
@@ -27,8 +22,8 @@ header {
     background-repeat: no-repeat; /* bgr */ 
     background-size: contain; /* bgz */ 
     color: #fff; /* c#fff */
-    height: 120px; /* h60 */ 
-    padding-top: 30px; /* pt15 */
+    /* height: 120px; /* h60 */  
+    /* padding-top: 30px; /*pt15 */
     text-align: center; /* tac */ 
 }
 header a {
@@ -41,11 +36,11 @@ header :hover {
     color: #90c7e3;
 }
 nav {
-    float: left; /* fl */ 
+    
     /* font-size: 120%; /* fz120% */  
     font-weight: bold; /* fwb */
-    padding: 1.5em .5em;  /* p1em */
-    width: 160px;
+    padding: 0;  /* p0 */
+    text-align: center; /* tac */ 
     
 }
 nav ul {
@@ -54,6 +49,9 @@ nav ul {
     margin: 0; 
     padding-left: 0; /* pl0 */ 
 
+}
+nav li { 
+    border-bottom: 1px solid #002171;
 }
 
 nav a {
@@ -73,22 +71,16 @@ nav a:hover {
 }
 main {
     background-color: #fff; /* bgc#fff */ 
-    margin-left: 190px; /* ml190 */ 
     padding: 1px 20px 20px; /* p-20-20 */
     display: block; /* db */ 
     overflow: auto; /* ofa */ 
 }
-section {
-    float: left; /* fl */ 
-    padding-left: 2em; /* pl2em */
-    padding-right: 2em; /* pr2em */ 
-    width: 33%; 
-}
+
 h1 {
-    font-size: 3em; /* fz3em */ 
+    /* font-size: 3em; /* fz3em */  
     letter-spacing: 0.25m; /* lts.25m */ 
-    margin-bottom: 0; /* mb0 */ 
-    margin-top: 0; /* mt0 */
+    margin-bottom: 0.5em; /* mb0 */ 
+    margin-top: 0.5em; /* mt0 */
     
 }
 h1,
@@ -113,7 +105,6 @@ footer {
     background-color: #fff; /* bgc#fff */ 
     font-size: 75%;
     font-style: italic;
-    margin-left: 190px;
     padding: 2em; /* p2em */
     text-align: center; /* tac */ 
 }
@@ -131,19 +122,28 @@ footer {
     background-repeat: no-repeat; /* bgr */ 
     background-size: 100% 100%; /* bgz100%100A% */
     height: 300px;
-    margin-left: 190px; /* ml190 */
 }
 #yurthero { 
     background-image: url(images/yurt.jpg); /* bgi */
     background-repeat: no-repeat; /* bgr */ 
     background-size: 100% 100%; /* bgz100%100A% */
     height: 300px;
-    margin-left: 190px; /* ml190 */
 }
 #trailhero { 
     background-image: url(images/trail.jpg); /* bgi */
     background-repeat: no-repeat; /* bgr */ 
     background-size: 100% 100%; /* bgz100%100A% */
     height: 300px;
-    margin-left: 190px; /* ml190 */
+}
+@media ( min-width: 600px ) {
+    nav ul{
+        display: flex; 
+        flex-direction: row; /* fdr */
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    nav li {
+        border-bottom: none; /*bbm */
+        
+    }
 }
