@@ -1,0 +1,3 @@
+This Pacific Trails Resort Case Study is a continuous project from my WEB152 class. This project is a static page that extended my knowledge of styling websites with the correct methodology. I learned how to use Emmet abbreviations for quicker building with CSS which has cut down the time to style any element in half. 
+I am building the website to get used to using Emmet abbreviations and to build on knowledge of HTML and CSS.
+https://timothysmith66.github.io/Pacific-trails-resort/
