@@ -5,57 +5,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <title>Pacific Trails Resort::Yurts</title>
+    <link rel="stylesheet" href="pacific.css">
 </head>
 
 <body>
-    <header>
-        <h1>Pacific Trails Resort</h1>
-    </header>
-    <!-- nav>ul*4>a -->
-    <nav>
-        <ul>
-            <li><a href="index.html"><b>Home</b></a></li>
-            <li><a href="yurts.html"><b>Yurts</b></a></li>
-            <li><a href="activities.html"><b>Activities</b></a></li>
-            <li><a href="reservations.html"><b>Reservations</b></a></li>
-        </ul>
-    </nav>
+    <div id="wrapper">
 
-    <!-- main>h2{}>+p{} -->
-    <main>
-        <h2>The Yurts at Pacific Trails</h2>
-        <!-- dl>(dt+dd)*3 -->
 
-        <dl>
-            <dt><strong>What is a yurt?</strong></dt>
-            <dd>Our luxury Yurts are permanent structures four feet off the ground. Each yurt is fully enclosed with
-                canvas walls, a wooden floor, and a roof dome that can be opened.</dd>
-            <dt><strong>How are the yurts furnished?</strong></dt>
-            <dd>Each yurt is furnished with a queen-size bed with down quilt and gas-fired stove. Your luxury camping
-                experience includes electricity and a sink with hot and cold running water. Shower and restroom
-                facilities are located in the lodge.</dd>
-            <dt><strong>What should I bring?</strong></dt>
-            <dd>Most guests pack comfortable walking shoes and plan to dress for changing weather with light layers of
-                clothing. It's also helpful to bring a flashlight and a sense of adventure!
-            <dd>
-        </dl>
-        <!-- div>p -->
-        <div>
-            <p>Pacific Trails Resort <br />12010 Pacific Trails Road <br />
-                Zephyr CA 95555 <br />
-                888-555-5555
+        <header>
+            <h1><a href="index.html">Pacific Trails Resort</a></h1>
+        </header>
+        <!-- nav>ul*4>a -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="yurts.html">Yurts</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+            </ul>
+        </nav>
+
+        <!-- main>h2{}>+p{} -->
+        <div id="yurthero" class="hero"> </div>
+        <main>
+            <h2>The Yurts at Pacific Trails</h2>
+            <!-- dl>(dt+dd)*3 -->
+            <div class="flow">
+                <section>
+                    <h3>What is a yurt?</h3>
+                    <p>
+                        Our luxury Yurts are permanent structures four feet off the ground. Each yurt is fully enclosed
+                        with
+                        canvas walls, a wooden floor, and a roof dome that can be opened.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>How are the yurts furnished?</h3>
+                    <p>
+                        Each yurt is furnished with a queen-size bed with down quilt and gas-fired stove. Your luxury
+                        camping
+                        experience includes electricity and a sink with hot and cold running water. Shower and restroom
+                        facilities are located in the lodge.
+                    </p>
+                </section>
+                <section>
+                    <h3>What should I bring?</h3>
+                    <p> Most guests pack comfortable walking shoes and plan to dress for changing weather with light
+                        layers
+                        of clothing. It's also helpful to bring a flashlight and a sense of adventure!
+                    </p>
+                </section>
+
+                <!-- div>p -->
+            </div>
+        </main>
+        <!-- footer>p -->
+        <footer>
+            <p>
+                Copyright &copy; 2021 Pacific Trails Resort
             </p>
-        </div>
-    </main>
-    <!-- footer>p -->
-    <footer>
-        <p>
-            <small><i>Copyright &copy; 2021 Pacific Trails Resort</i></small>
-        </p>
-        <p><a href="mailto: timothytsmith8@gmail.com">Timothy Smith</a>
-        </p>
-    </footer>
+            <p><a href="timothytsmith8@gmail.com">Timothy Smith</a>
+            </p>
+        </footer>
+    </div>
+    <!-- this closes my wrapper div -->
 </body>
 
 </html>
